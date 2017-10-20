@@ -1,11 +1,11 @@
-Simple plugin designed to give mute ability for admins.
+**Simple plugin designed to give mute ability for admins.**
 
-Commands
+**Commands:**
 
 /mute playername minutes - Mutes player for x minutes, if no minutes are given plugin will use default time from config
 /unmute player - Unmutes player if he is muted
 
-Permissions
+**Permissions**
 
 Admins can use when logged as admin
 
@@ -21,9 +21,11 @@ oxide.revoke user playername canmute
 
 Default config:
 
-[CODE]{
-  "broadcastMutes": true,
-  "defaultMuteTime": 5,
-  "hasBeenMuted": " [color yellow]has been muted",
-  "youAreMuted": "You are muted!."
-}[/CODE]
+```
+{
+"broadcastMutes": true,
+"defaultMuteTime": 5,
+"hasBeenMuted": " [color yellow]has been muted",
+"youAreMuted": "You are muted!."
+}
+```
