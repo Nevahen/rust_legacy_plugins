@@ -13,11 +13,11 @@ You can give non-admin players permission to mute. Just give them oxide permissi
 
 Example:
 
-oxide.grant user playername canmute
+__oxide.grant user playername canmute__
 
 If you want remove access to mute system just revoke permission with
 
-oxide.revoke user playername canmute
+__oxide.revoke user playername canmute__
 
 Default config:
 
